@@ -44,7 +44,7 @@
   body {
     font-family: var(--font-body);
     background: var(--gradient-cosmic);
-    background-image: url(assets/background.png);
+    background-image: url(assets/background.jpg);
     background-size: cover;
     color: var(--color-text);
     display: flex;
