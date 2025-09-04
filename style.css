@@ -3,7 +3,7 @@
     /* 🎨 Color Palette */
     --color-bg: #0b0c10;        /* cosmic black */
    
-    --color-primary: #f0b536;   /* violet glow */
+    --color-primary: #f39e2f;   /* violet glow */
     --color-secondary: #45b6e0; /* magenta pop */
     --color-accent: #ee4722;    /* neon cyan */
     --color-text: #e4fff5;      /* pure white */
@@ -71,10 +71,22 @@
     margin-bottom: 0.25rem;
     font-family: var(--font-heading);
   }
+
+  h2 {
+    display: block;
+    width: fit-content;
+    justify-self: center;
+    font-size: 1.4rem;
+    font-family: var(--font-heading);
+    padding: 2px;
+    background-color: #45b6e084;
+    margin-top: 15px;
+  }
   
   .tagline {
     font-family: var(--font-heading);
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    font-style: italic;
     opacity: 0.8;
     margin-bottom: 2rem;
   }
@@ -114,6 +126,10 @@
     letter-spacing: -0.5px;
     
   }
+
+  span.star {
+    font-style: normal;
+  }
   
   .bubble-btn:active {
     transform: scale(0.97);
@@ -137,12 +153,10 @@
   footer {
     margin-top: 2rem;
     font-size: 0.8rem;
-    opacity: 0.7;
   }
   
   /* Responsive */
   @media (max-width: 600px) {
-    
   
     h1 {
       font-size: 1.5rem;
@@ -207,9 +221,9 @@
 
     @font-face {
         font-family: 'Baskerville';
-        font-style: normal;
+        font-style: italic;
         font-weight: normal;
-        src: local('Baskerville'), url('assets/fonts/Baskerville-Poster-PT-.otf') format('woff');
+        src: url('assets/fonts/Baskerville-Poster-PT-.otf') format('woff');
     }
         
   
